@@ -12,7 +12,7 @@ end
 
 depends "build-essential"
 depends "yasm"
-depends "subversion::client"
+depends "subversion"
 depends "git"
 
 recipe "mplayer", "Installs mplayer."
