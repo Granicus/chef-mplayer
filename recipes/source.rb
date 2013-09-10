@@ -6,7 +6,7 @@
 #
 
 include_recipe "build-essential"
-include_recipe "subversion" #mplayer checkout
+include_recipe "subversion::client" #mplayer checkout
 include_recipe "git" #ffmpeg checkout
 include_recipe "yasm"
 
